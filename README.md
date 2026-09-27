@@ -12,7 +12,7 @@ Si desean crear sus propios *Remakes/Revival* están en todo su derecho en usar 
 
 ---
 
-# Instalación:
+# 🚀 Instalación:
 
 ## Instalación sencilla:
 - Descarga el archivo ".7z" desde el apartado [Releases](../../releases/latest)
@@ -23,6 +23,13 @@ Si desean crear sus propios *Remakes/Revival* están en todo su derecho en usar 
 
 - Ejecuta el juego `CurioQuest.apk` y ¡Disfruta! ❤️
 
----
 
 **Por favor, no habrás el juego sin antes haber instalado las dos APKs y haber iniciado el servidor. Caso contrario, el juego puede dar error o crashear.**
+
+---
+
+# ❗Información:
+
+Este repositorio contiene el código fuente del backend del servidor de **Curio Quest**, que permite ejecutar el juego en `Localhost` utilizando los archivos del juego original.
+
+Actualmente, es un fork de: https://github.com/marcelosmj/curioquest
