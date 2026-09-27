@@ -33,3 +33,22 @@ Si desean crear sus propios *Remakes/Revival* están en todo su derecho en usar 
 Este repositorio contiene el código fuente del backend del servidor de **Curio Quest**, que permite ejecutar el juego en `Localhost` utilizando los archivos del juego original.
 
 Actualmente, es un fork de: https://github.com/marcelosmj/curioquest
+
+### Preguntás Frecuentes:
+
+**¿Qué es Curio Quest Revival?**
+- Curio Quest Revival (CQR) es un Remake/Revival del juego original que te permite jugar Localmente el juego original.
+---
+**¿Cuál es su propósito?**
+- Su propósito es preservar y reproducir el juego original sin fines de lucros.
+---
+**¿Es Open-Source o como podemos confiar en el?**
+- El código es de código abierto es decir cualquier persona puede ver el código original y mejorar el `Servidor`, o pueden hacer ingeniería inversa con las APKs originales de CurioQuest que se encuentran en Google.
+---
+**¿Ya puedo jugar el juego o cuando sale?**
+- El juego está en una versión demo 100% jugable, y lo pueden jugar siguiendo las instrucciones de arriba.
+---
+**¿Quién desarrollo el proyecto?**
+- El proyecto es liderado por **vurzk-dev (Markut)**, un programador de Argentina 🇦🇷 que le encanta revivir juegos antiguos de Flas y otros.
+
+Fin.
