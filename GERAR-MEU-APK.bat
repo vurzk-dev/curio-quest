@@ -1,18 +1,18 @@
 @echo off
 chcp 65001 >nul
 echo.
-echo  Curio Quest - gerador do seu APK
+echo  Curio Quest - generador de su APK
 echo  ================================
 echo.
-echo  Detecta o IP deste PC e monta um APK que fala com ele pelo Wi-Fi.
-echo  (Se voce for ligar o celular por cabo USB, nao precisa disto:
-echo   use o CurioQuest-offline-127.0.0.1.apk que ja veio pronto.)
+echo  Detecta la IP de este PC y crea un APK que se conecta a él por Wi-Fi.
+echo  (Si va a conectar el celular mediante cable USB, no necesita esto:
+echo   use el CurioQuest-offline-127.0.0.1.apk que ya viene preparado.)
 echo.
 
 where python >nul 2>&1
 if errorlevel 1 (
-  echo  [X] Python nao encontrado. Instale em https://python.org e marque
-  echo      "Add Python to PATH" durante a instalacao.
+  echo  [X] Python no encontrado. Instálelo desde https://python.org y marque
+  echo      "Add Python to PATH" durante la instalación.
   echo.
   pause
   exit /b 1
@@ -20,16 +20,16 @@ if errorlevel 1 (
 
 where java >nul 2>&1
 if errorlevel 1 (
-  echo  [X] Java nao encontrado. E necessario para assinar o APK.
-  echo      Instale o Temurin JDK: https://adoptium.net
+  echo  [X] Java no encontrado. Es necesario para firmar el APK.
+  echo      Instale el Temurin JDK: https://adoptium.net
   echo.
   pause
   exit /b 1
 )
 
 if not exist "Curio Quest_1.15.00.apk" (
-  echo  [X] Falta o arquivo "Curio Quest_1.15.00.apk" nesta pasta.
-  echo      Ele vem junto no pacote, dentro de apk\. Copie para ca.
+  echo  [X] Falta el archivo "Curio Quest_1.15.00.apk" en esta carpeta.
+  echo      Viene incluido en el paquete, dentro de apk\. Cópielo aquí.
   echo.
   pause
   exit /b 1
@@ -38,15 +38,15 @@ if not exist "Curio Quest_1.15.00.apk" (
 python tools\patch_apk.py
 if errorlevel 1 (
   echo.
-  echo  [X] Falhou. Leia a mensagem acima.
+  echo  [X] Falló. Lea el mensaje anterior.
   pause
   exit /b 1
 )
 
 echo.
-echo  Pronto. O seu APK esta na pasta build\.
+echo  Listo. Su APK está en la carpeta build\.
 echo.
-echo  Agora instale no celular:
+echo  Ahora instálelo en el celular:
 echo    adb install -r build\CurioQuest-offline-SEU-IP.apk
 echo    adb shell pm clear air.com.A5thplanetgames.pets
 echo.
