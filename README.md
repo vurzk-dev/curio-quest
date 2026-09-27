@@ -11,3 +11,18 @@ Si desean crear sus propios *Remakes/Revival* están en todo su derecho en usar 
 [![Discord](https://img.shields.io/discord/1544079267388723200?logo=discord&label=Discord&color=blue)](https://discord.gg/dUfMBYT8vn)
 
 ---
+
+# Instalación:
+
+## Instalación sencilla:
+- Descarga el archivo ".7z" desde el apartado [Releases](../../releases/latest)
+  
+- Extrae su contenido en un lugar accesible e instala las dos APKs adjuntas.
+  
+- Ejecuta el APK llamado `CQRServer.apk` y dale `Iniciar Servidor`.
+
+- Ejecuta el juego `CurioQuest.apk` y ¡Disfruta! ❤️
+
+---
+
+**Por favor, no habrás el juego sin antes haber instalado las dos APKs y haber iniciado el servidor. Caso contrario, el juego puede dar error o crashear.**
