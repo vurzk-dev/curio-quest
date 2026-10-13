@@ -10,7 +10,7 @@ Si desean crear sus propios *Remakes/Revival* están en todo su derecho en usar 
 [![Descargas](https://img.shields.io/github/downloads/vurzk-dev/curio-quest/total?label=downloads%40all)](../../releases/latest)
 [![Discord](https://img.shields.io/discord/1544079267388723200?logo=discord&label=Discord&color=blue)](https://discord.gg/dUfMBYT8vn)
 
----
+<!-- ---
 
 # 🚀 Instalación:
 
@@ -24,13 +24,13 @@ Si desean crear sus propios *Remakes/Revival* están en todo su derecho en usar 
 - Ejecuta el juego `CurioQuest.apk` y ¡Disfruta! ❤️
 
 
-**Por favor, no habrás el juego sin antes haber instalado las dos APKs y haber iniciado el servidor. Caso contrario, el juego puede dar error o crashear.**
+**Por favor, no habrás el juego sin antes haber instalado las dos APKs y haber iniciado el servidor. Caso contrario, el juego puede dar error o crashear.** -->
 
 ---
 
 # ❗Información:
 
-Este repositorio contiene el código fuente del backend del servidor de **Curio Quest**, que permite ejecutar el juego en `Localhost` utilizando los archivos del juego original.
+Este repositorio contiene el código fuente del backend del servidor de **Curio Quest**, que permite ejecutar el juego en `Localhost` utilizando los archivos del juego original, adicionalmente la guía de instalación la podrán visualizar en [Releases](../../releases/latest).
 
 Actualmente, es un fork de: https://github.com/marcelosmj/curioquest
 
@@ -50,5 +50,3 @@ Actualmente, es un fork de: https://github.com/marcelosmj/curioquest
 ---
 **¿Quién desarrollo el proyecto?**
 - El proyecto es liderado por **vurzk-dev (Markut)**, un programador de Argentina 🇦🇷 que le encanta revivir juegos antiguos de Flas y otros.
-
-Fin.
